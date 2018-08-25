@@ -1,0 +1,16 @@
+#serverless.yaml
+
+service: my-first-serverless
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+  stage: dev
+  region: ap-northeast-1
+
+functions:
+  hello-world:
+    handler: index.handler
+    name: hello-world
+    events: # Add events which call your lambda function.
+      - http: GET hello-world
