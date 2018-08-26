@@ -16,3 +16,18 @@
 - CI/CD cho serverless
 #### 4. Demo phương pháp CI/CD sử dụng AWS Codebuild, AWS Lambda, AWS S3.
 - Deploy API lên Lambda
+
+
+
+## Demo
+#### 1. Demo Lambda
+1. Tạo lambda function
+2. Tạo API gateway và gắn vào lambda function
+
+#### 2. Demo Build bằng Serverless framework
+1. Cài đặt serverless framework
+2. Setting aws credential
+3. Tạo file serverless.yaml và setting provider build lambda
+4. Add thêm events vào file serverless.yaml và build lại
+
+#### 3. Demo CI/CD
