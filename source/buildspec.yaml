@@ -6,3 +6,6 @@ phases:
     commands:
       - cd source/
       - npm install
+  pre-build:
+    commands:
+      - npm run test
