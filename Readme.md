@@ -31,3 +31,8 @@
 4. Add thêm events vào file serverless.yaml và build lại
 
 #### 3. Demo CI/CD
+1. Tạo file buildspec.yaml
+2. Tạo role IAM để gắn vào codebuild
+3. Tạo pipeline để build và test
+4. Tạo buildspec2.yaml để build
+5. Thêm stage build
