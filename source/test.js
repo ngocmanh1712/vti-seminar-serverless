@@ -10,7 +10,7 @@ describe('Index', function () {
           return done('Err should be null')
         }
         const parsed = JSON.parse(result.body)
-        assert.deepEqual(parsed.message, 'Hello World')
+        assert.deepEqual(parsed.message, 'Hello World 123')
         return done()
       })
     })
